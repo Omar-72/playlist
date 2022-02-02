@@ -1,5 +1,9 @@
 // Complete Day 1 goals here
-
+$(".add").click(function(){
+  let music=$(".title").val();
+  $(".songs").append(music);
+  console.log(music);
+});
 function displaySongInfo() {
   // Complete the Day 2 goals inside this function
 }
